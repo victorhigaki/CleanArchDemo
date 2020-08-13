@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "Cle
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.Mvc\CleanArch.Mvc.csproj", "{AC83E4AE-5188-4E7A-94C7-E46089DA2127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{F152B81E-0171-456D-A2E4-668A0B265935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{F152B81E-0171-456D-A2E4-668A0B265935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{10E2F89F-B96A-43B3-8C24-78FBD53B1922}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{F152B81E-0171-456D-A2E4-668A0B265935}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F152B81E-0171-456D-A2E4-668A0B265935}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F152B81E-0171-456D-A2E4-668A0B265935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E2F89F-B96A-43B3-8C24-78FBD53B1922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E2F89F-B96A-43B3-8C24-78FBD53B1922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E2F89F-B96A-43B3-8C24-78FBD53B1922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E2F89F-B96A-43B3-8C24-78FBD53B1922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{592DF81C-9CA4-4C58-9208-162FF28C94E1} = {0C419899-A8E5-45B9-AC6B-CEBDFB45BAF5}
 		{AC83E4AE-5188-4E7A-94C7-E46089DA2127} = {077935EE-5BD9-4351-AD7B-DB794E814CC4}
 		{F152B81E-0171-456D-A2E4-668A0B265935} = {BB88FA1E-145F-4B86-A298-36E4A3B6DB0E}
+		{10E2F89F-B96A-43B3-8C24-78FBD53B1922} = {AD672B27-28D3-45E8-986B-8E084032C796}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E187DCC5-E107-43C0-864C-0E94593443C7}
